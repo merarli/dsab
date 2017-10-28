@@ -25,7 +25,7 @@ public class Hanoi {
     // 最初に呼ばれる関数
     public static void main(String[] args) {
         // [parameter] 整数
-        n = 9;
+        n = 4;
         // [parameter] 関数呼び出しの詳細表示
         detail = false;
 
@@ -59,7 +59,7 @@ public class Hanoi {
             System.out.println(step + ")move " + n + " from " + from + " to " + to);
             hanoi(n - 1, 'b', 'a', 'c');
         }
-        System.out.println("ステップ数は：" + step);
+//        System.out.println("ステップ数は：" + step);
 
     }
 }
